@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: SpotifyMixUI,
+        CircularSp-Arab,
+        CircularSp-Hebr,
+        CircularSp-Cyrl,
+        CircularSp-Grek,
+        CircularSp-Deva,
+        "Helvetica Neue",
+        helvetica,
+        arial,
+        "Hiragino Kaku Gothic ProN",
+        Meiryo,
+        "MS Gothic",
+        sans-serif
+}
+
+
+.header {
+    display: flex;
+    color: #b3b3b3;
+    border: 2px solid #ffffff;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.header .logos {
+    border-radius: 50%;
+    background-color: rgb(42, 42, 42);
+    
+    color: #ffffff;
+}
+
+.header ul {
+    display: flex;
+    gap: 1em;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    padding: 4px;
+    margin-left: 0.5em;
+
+}
+
+
+.icons{
+    width: 30px;
+    border-radius: 50%;
+
+}
+
+.header .search-bar {
+    background-color: rgb(42, 42, 42);
+    display: flex;
+    border-radius: 30px;
+    padding: 10px 1em;
+    justify-content: space-around;
+}
+
+.header input {
+    background-color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+    border: none;
+
+}
+
+.header .end {
+    margin-left: auto;
+    color: rgb(179, 179, 179);
+}
+
+.header .button {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 1em 1.8em;
+
+    font-size: 17px;
+    font-weight: 700;
+}
