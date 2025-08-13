@@ -1,5 +1,6 @@
 body {
     background-color: rgb(0, 0, 0);
+    border: 1px solid brown;
 }
 
 
@@ -18,7 +19,8 @@ body {
         "Hiragino Kaku Gothic ProN",
         Meiryo,
         "MS Gothic",
-        sans-serif
+        sans-serif;
+        
 }
 
 
@@ -26,11 +28,10 @@ body {
     min-width: 390px;
     display: flex;
     color: #b3b3b3;
-    border: 2px solid #ffffff;
     font-size: 17px;
     font-weight: 700;
     flex-wrap: wrap;
-    padding: 0.5em 1em;
+    padding: 0 1em;
 }
 
 .header li{
@@ -61,7 +62,7 @@ body {
 .header .end {
     display: flex;
     max-width: fit-content;
-    gap: 0.5em;
+    gap: 0.9em;
     flex: 1 1 auto;
     flex-wrap: wrap;
     list-style: none;
@@ -84,7 +85,7 @@ body {
     background-color: rgb(42, 42, 42);
     display: flex;
     border-radius: 30px;
-    padding: 10px 1em;
+    padding: 6px 1em;
     justify-content: space-around;
 }
 
@@ -105,12 +106,50 @@ body {
     color: rgb(179, 179, 179);
 }
 
-.header .button {
+.header .button,
+.aside .button
+{
     color: rgb(0, 0, 0);
     background-color: #ffffff;
     border-radius: 30px;
-    padding: 1em 1.8em;
+    padding: 0.6em 1.6em;
 
     font-size: 17px;
     font-weight: 700;
+}
+
+.container .aside{
+    color: white;
+    width: 25%;
+    background-color: rgb(20, 20, 20);
+    border-radius: 16px;
+    padding: 0.5rem;
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
+
+.aside ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 2%;
+    list-style: none;
+}
+
+.aside .second{
+    background-color: rgb(31, 31, 31);
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 10px;
+}
+
+
+.aside .subtext{
+    color: #b3b3b3;
+    font-weight: 400;
+}
+
+.aside .button{
+    padding: 0.6rem 0.9rem;
+    font-weight: 600;
 }
